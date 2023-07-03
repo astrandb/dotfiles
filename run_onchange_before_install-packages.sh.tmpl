@@ -2,6 +2,7 @@
 #!/bin/sh
 sudo apt-get install rlwrap
 sudo apt-get install pass
+pass init {{ .chemzmoi.email }}
 sudo apt-get install tmux
 
 {{ else if eq .chezmoi.os "darwin" -}}
