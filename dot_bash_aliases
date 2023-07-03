@@ -1,0 +1,13 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ping='ping -c 4'
+alias sudo='sudo '
+alias h='history 30'
+alias nslookup='rlwrap nslookup'
+shopt -s histverify
+alias tlog='tail -n 30 /var/log/syslog'
+alias flog='tail -f /var/log/syslog'
+alias digs='dig +short'
+alias cdh='cd /home/ake/.homeassistant'
+export EDITOR='nano'
