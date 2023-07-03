@@ -1,6 +1,9 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
 sudo apt-get install rlwrap
+sudo apt-get install pass
+sudo apt-get install tmux
+
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
 # brew install ripgrep

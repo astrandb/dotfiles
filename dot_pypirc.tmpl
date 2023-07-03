@@ -1,0 +1,25 @@
+[distutils]
+index-servers =
+    pypi
+    pyeasee
+    pymiele
+    pysentio
+    
+[pypi]
+  username = __token__
+  password = {{ pass "Develop/pypirc_pypi" }}
+
+[pyeasee]
+  repository = https://upload.pypi.org/legacy/
+  username = __token__
+  password = {{ pass "Develop/pypirc_pyeasee" }}
+
+[pymiele]
+  repository = https://upload.pypi.org/legacy/
+  username = __token__
+  password = {{ pass "Develop/pypirc_pymiele" }}
+  
+[pysentio]
+  repository = https://upload.pypi.org/legacy/
+  username = __token__
+  password = {{ pass "Develop/pypirc_pysentio" }}

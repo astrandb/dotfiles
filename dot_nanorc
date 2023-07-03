@@ -1,0 +1,13 @@
+set autoindent
+# set rebindkeypad
+set tabsize 2
+set tabstospaces
+bind M-b firstline main
+bind ^b lastline main
+bind M-+ replace main
+bind M-7 indent main
+bind M-9 unindent main
+# nano version 2.9.3 >= 2.5.3
+set positionlog
+set mouse
+set zap
