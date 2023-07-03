@@ -7,11 +7,11 @@ $ source ~/.profile
 ```
 #### More cautious approach
 ```bash
-$ sh -c "$(curl -fsLS get.chezmoi.io)" $GITHUB_USERNAME
+$ sh -c "$(curl -fsLS get.chezmoi.io)"
 $ source ~/.profile
-$ chezmoi --init
-$ chezmoi --diff
-$ chezmoi --apply
+$ chezmoi init --ssh $GITHUB_USERNAME
+$ chezmoi diff
+$ chezmoi apply
 @ source ~/.profile
 ```
 
