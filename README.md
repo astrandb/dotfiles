@@ -7,6 +7,7 @@
 ```bash
 $ gpg --import public_gpg.key
 $ gpg --import private_gpg.key
+$ # scp -r ~/.password-store $TARGET_HOST:
 $ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --ssh --apply $GITHUB_USERNAME
 $ source ~/.profile
 ```
@@ -16,6 +17,7 @@ $ source ~/.profile
 ```bash
 $ gpg --import public_gpg.key
 $ gpg --import private_gpg.key
+$ # scp -r ~/.password-store $TARGET_HOST:
 $ sh -c "$(curl -fsLS get.chezmoi.io)"
 $ source ~/.profile
 $ chezmoi init --ssh $GITHUB_USERNAME
