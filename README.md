@@ -7,7 +7,7 @@
 ```bash
 $ gpg --import public_gpg.key
 $ gpg --import private_gpg.key
-$ sh -c "$(curl -fsLS get.chezmoi.io)" --init --ssh --apply $GITHUB_USERNAME
+$ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --ssh --apply $GITHUB_USERNAME
 $ source ~/.profile
 ```
 
